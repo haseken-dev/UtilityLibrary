@@ -8,5 +8,5 @@ let package = Package(name: "UtilityLibrary",
                       products: [.library(name: "UtilityLibrary",
                                           targets: ["UtilityLibrary"])],
                       targets: [.target(name: "UtilityLibrary",
-                                        path: "Source")],
+                                        path: "Sources")],
                       swiftLanguageVersions: [.v5])
