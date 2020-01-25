@@ -1,5 +1,9 @@
+# このrepsitoryについて
+ライブラリ開発の練習用です。
+
+
 # UtilityLibrary
-iOSの機能へのアクセスや、Viewとかの色々便利なものをLibrary形式にして、Swift Package Managerとかで配布できる様に練習するようのrepository
+iOSの機能へのアクセスなど、便利そうなものをLibrary形式にしてみてます。
 
 # License
 MIT
