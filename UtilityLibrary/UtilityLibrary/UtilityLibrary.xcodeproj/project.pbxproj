@@ -21,10 +21,10 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		167D56CF2560F97900E3C8C9 /* LocalAuthenticationUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167D56CE2560F97800E3C8C9 /* LocalAuthenticationUtility.swift */; };
 		16A5ACCB23DC285700F50090 /* UtilityLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16A5ACC123DC285700F50090 /* UtilityLibrary.framework */; };
 		16A5ACD023DC285700F50090 /* UtilityLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A5ACCF23DC285700F50090 /* UtilityLibraryTests.swift */; };
 		16A5ACD223DC285700F50090 /* UtilityLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 16A5ACC423DC285700F50090 /* UtilityLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16A5AD2C23DC3C0C00F50090 /* LocalAuthenticationUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A5AD2B23DC3C0C00F50090 /* LocalAuthenticationUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,13 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		167D56CE2560F97800E3C8C9 /* LocalAuthenticationUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalAuthenticationUtility.swift; sourceTree = "<group>"; };
 		16A5ACC123DC285700F50090 /* UtilityLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UtilityLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16A5ACC423DC285700F50090 /* UtilityLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilityLibrary.h; sourceTree = "<group>"; };
 		16A5ACC523DC285700F50090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16A5ACCA23DC285700F50090 /* UtilityLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UtilityLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16A5ACCF23DC285700F50090 /* UtilityLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityLibraryTests.swift; sourceTree = "<group>"; };
 		16A5ACD123DC285700F50090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		16A5AD2B23DC3C0C00F50090 /* LocalAuthenticationUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalAuthenticationUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,10 +66,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		167D56CD2560F97800E3C8C9 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				167D56CE2560F97800E3C8C9 /* LocalAuthenticationUtility.swift */,
+			);
+			name = Sources;
+			path = ../../Sources;
+			sourceTree = "<group>";
+		};
 		16A5ACB723DC285600F50090 = {
 			isa = PBXGroup;
 			children = (
-				16A5AD2A23DC3C0C00F50090 /* Sources */,
+				167D56CD2560F97800E3C8C9 /* Sources */,
 				16A5ACC323DC285700F50090 /* UtilityLibrary */,
 				16A5ACCE23DC285700F50090 /* UtilityLibraryTests */,
 				16A5ACC223DC285700F50090 /* Products */,
@@ -101,14 +110,6 @@
 				16A5ACD123DC285700F50090 /* Info.plist */,
 			);
 			path = UtilityLibraryTests;
-			sourceTree = "<group>";
-		};
-		16A5AD2A23DC3C0C00F50090 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				16A5AD2B23DC3C0C00F50090 /* LocalAuthenticationUtility.swift */,
-			);
-			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,7 +174,7 @@
 				TargetAttributes = {
 					16A5ACC023DC285700F50090 = {
 						CreatedOnToolsVersion = 11.3.1;
-						LastSwiftMigration = 1130;
+						LastSwiftMigration = 1170;
 					};
 					16A5ACC923DC285700F50090 = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -245,7 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16A5AD2C23DC3C0C00F50090 /* LocalAuthenticationUtility.swift in Sources */,
+				167D56CF2560F97900E3C8C9 /* LocalAuthenticationUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
